@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <style>
+        body {
+            font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            border-left: 6px solid #4CAF50;
+            padding-left: 10px;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        p {
+            line-height: 1.8;
+            margin: 0.5rem 0;
+        }
+
+        .skills span {
+            display: inline-block;
+            margin: 5px;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: white;
+        }
+
+        .skills .html {
+            background: #2196F3;
+        }
+
+        .skills .css {
+            background: #E91E63;
+        }
+
+        .skills .js {
+            background: #FF9800;
+        }
+
+        .skills .wp {
+            background: #4CAF50;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .sns img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        /* スマホ対応 */
+        @media (max-width: 600px) {
+            body {
+                font-size: 15px;
+            }
+
+            .card {
+                padding: 1rem;
+            }
+
+            h2 {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>自己紹介</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <ul>
+                <li><a href="#10">1. プロフィール</a></li>
+                <li><a href="#1">2. スキル</a></li>
+                <li><a href="#2">3. 稼働時間</a></li>
+                <li><a href="#3">4. 実績</a></li>
+                <li><a href="#4">5. 自己PR</a></li>
+                <li><a href="#5">6. 目標</a></li>
+                <li><a href="#6">7. 連絡先</a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="card" 　>
+            <h2 id="10">プロフィール</h2>
+            <p><strong>名前：</strong> 河野 翔也</p>
+            <p><strong>生年月日：</strong> 2006年11月29日（19歳）</p>
+        </div>
+
+        <div class="card" id="1">
+            <h2>スキル</h2>
+            <div class="skills">
+                <span class="html">HTML</span>
+                <span class="css">CSS</span>
+                <span class="js">JavaScript</span>
+                <span class="wp">WordPress</span>
+            </div>
+        </div>
+
+        <div class="card" id="2">
+            <h2>稼働時間</h2>
+            <p>平日：17時～24時</p>
+            <p>休日：9時～24時</p>
+        </div>
+
+        <div class="card" id="3">
+            <h2>実績</h2>
+            <p>サイト制作中</p>
+        </div>
+
+        <div class="card" id="4">
+            <h2>自己PR</h2>
+            <p>独学でWeb制作を半年ほど勉強しています。<br>
+                納期を守ることを最優先に作業します。</p>
+        </div>
+
+        <div class="card" id="5">
+            <h2>目標</h2>
+            <p>4月からプログラミングの専門学校に通う予定です。<br>
+                実績を積みながらAI開発を学んでいきたいです。</p>
+        </div>
+
+        <div class="card" id="6">
+            <h2>連絡先</h2>
+            <p>📧 <a href="mailto:kawano9511@gmail.com?subject=お問い合わせ&body=案件依頼">kawano9511@gmail.com</a></p>
+            <div class="sns">
+                <a href="https://www.instagram.com/kawano11293?igsh=MXgzbjByY2U3Zmk5dA%3D%3D&utm_source=qr">
+                    <img src="https://about.fb.com/ja/wp-content/uploads/sites/15/2019/10/new-ig-icon-1.png"
+                        alt="Instagram">
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
